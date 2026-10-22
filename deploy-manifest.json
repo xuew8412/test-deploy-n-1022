@@ -1,0 +1,18 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-10-22T07:46:16.877Z",
+  "title": "Click Coordinates",
+  "authMode": "oauth",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-10-22T07-46-16-7dc3e98f-e5c3-4c68-a6ea-b4035bdca5c5/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  },
+  "portalUrl": "https://www.arcgis.com",
+  "appId": "1j00QrB0x6mU4O3B",
+  "deploymentUrl": "https://xuew8412.github.io/test-deploy-n-1022/"
+}

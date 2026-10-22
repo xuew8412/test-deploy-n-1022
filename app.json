@@ -1,0 +1,113 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-10-22T07:46:16.882Z",
+  "item": {
+    "title": "Click Coordinates",
+    "subtitle": "Click anywhere on the map to read latitude and longitude."
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "map",
+    "showHeader": true,
+    "theme": {
+      "mode": "light",
+      "accent": "default"
+    },
+    "layout": {
+      "right": {
+        "hidden": false,
+        "width": "300px",
+        "title": "Coordinates",
+        "collapsed": false,
+        "blocks": [
+          {
+            "type": "customMount",
+            "id": "coord-readout",
+            "title": "Click result"
+          }
+        ]
+      }
+    },
+    "widgets": [
+      {
+        "id": "home",
+        "type": "home",
+        "slot": "top-left",
+        "config": {}
+      },
+      {
+        "id": "scale",
+        "type": "scaleBar",
+        "slot": "bottom-left",
+        "config": {}
+      },
+      {
+        "id": "default-legend",
+        "type": "legend",
+        "slot": "bottom-left",
+        "config": {}
+      },
+      {
+        "id": "default-layer-list",
+        "type": "layerList",
+        "slot": "top-right",
+        "config": {}
+      },
+      {
+        "id": "default-basemap-gallery",
+        "type": "basemapGallery",
+        "slot": "top-right",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "click-coordinates",
+        "label": "Click to get coordinates and mark point",
+        "bundlePath": "./runtime/behaviors/click-coordinates-73a5f200810f2849.js",
+        "sourceSha256": "73a5f200810f2849dc911676e1574214c92e99f153be991a81cde3ad5e5946cc",
+        "modulePaths": [
+          "esri/Graphic"
+        ],
+        "config": {},
+        "mounts": [
+          "coord-readout"
+        ],
+        "ownedLayerIds": [],
+        "interactions": [
+          {
+            "id": "map-click-coordinates",
+            "trigger": {
+              "type": "map-click"
+            },
+            "actionId": "show-coordinates"
+          }
+        ],
+        "installedAt": "2026-10-22T09:11:12.409Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "7dc3e98f-e5c3-4c68-a6ea-b4035bdca5c5",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-e206f7a3-01d4-490e-9cfc-7426f1172766",
+      "mapName": "New Conversation",
+      "viewMode": "2d",
+      "capturedAt": "2026-10-22T07:46:16.877Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": []
+  }
+}
