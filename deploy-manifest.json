@@ -1,11 +1,11 @@
 {
   "kind": "arcgis-nova-deployable-app",
   "version": "0.1",
-  "generatedAt": "2026-10-22T07:46:16.877Z",
-  "title": "Click Coordinates",
+  "generatedAt": "2026-10-23T12:29:09.050Z",
+  "title": "Today’s Calendar & Coordinates",
   "authMode": "oauth",
   "entry": "index.html",
-  "sourceAppPath": "outputs/apps/2026-10-22T07-46-16-7dc3e98f-e5c3-4c68-a6ea-b4035bdca5c5/index.html",
+  "sourceAppPath": "outputs/apps/2026-10-23T12-29-09-c9c77a6a-d2b8-4e05-b394-dd79a3c77e0a/index.html",
   "files": {
     "app": "app.json",
     "map": "map.json",
@@ -13,6 +13,6 @@
     "auth": "standalone-auth.js"
   },
   "portalUrl": "https://www.arcgis.com",
-  "appId": "1j00QrB0x6mU4O3B",
+  "appId": "NBYyByHSmXl89tqY",
   "deploymentUrl": "https://xuew8412.github.io/test-deploy-n-1022/"
 }

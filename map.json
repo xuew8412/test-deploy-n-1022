@@ -1,683 +1,146 @@
 {
   "operationalLayers": [
     {
-      "id": "1a162e6cbf5-layer-54",
-      "title": "schools",
-      "url": "https://services1.arcgis.com/oC086ufSSQ6Avnw2/arcgis/rest/services/schools/FeatureServer/0",
-      "itemId": "a3a09d8750b84cb89f05b9be5474f385",
-      "layerType": "ArcGISFeatureLayer",
-      "blendMode": "normal",
-      "layerDefinition": {
-        "fieldConfigurations": [
-          {
-            "name": "ELEV_METER",
-            "fieldFormat": {
-              "type": "number",
-              "useGrouping": "always"
-            }
-          }
-        ],
-        "drawingInfo": {
-          "renderer": {
-            "type": "uniqueValue",
-            "field1": "STCTYFIPS",
-            "defaultLabel": "Other",
-            "defaultSymbol": {
-              "type": "esriSMS",
-              "color": [
-                170,
-                170,
-                170,
-                255
-              ],
-              "angle": 0,
-              "xoffset": 0,
-              "yoffset": 0,
-              "size": 6,
-              "style": "esriSMSCircle",
-              "outline": {
-                "type": "esriSLS",
-                "color": [
-                  153,
-                  153,
-                  153,
-                  64
-                ],
-                "width": 0.75,
-                "style": "esriSLSSolid"
-              }
-            },
-            "uniqueValueGroups": [
+      "id": "1a168c3c854-layer-56",
+      "title": "Beijing COVID-19 Risk Levels",
+      "layers": [
+        {
+          "id": "1a168c3cd3c-layer-57",
+          "title": "Beijing street map covid19",
+          "url": "https://services1.arcgis.com/oC086ufSSQ6Avnw2/arcgis/rest/services/Beijing_Map_2020_Covid19/FeatureServer/1",
+          "itemId": "5a74bcc3317443e593bf6487d77a5f71",
+          "layerType": "ArcGISFeatureLayer",
+          "layerDefinition": {
+            "fieldConfigurations": [
               {
-                "classes": [
-                  {
-                    "label": "17031",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        237,
-                        81,
-                        81,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "17031"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "06037",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        20,
-                        158,
-                        206,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "06037"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "26163",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        167,
-                        198,
-                        54,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "26163"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "12086",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        158,
-                        85,
-                        156,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "12086"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "04013",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        252,
-                        146,
-                        31,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "04013"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "06073",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        255,
-                        222,
-                        62,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "06073"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "06085",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        247,
-                        137,
-                        216,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "06085"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "42003",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        183,
-                        129,
-                        74,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "42003"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "39035",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        60,
-                        175,
-                        153,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "39035"
-                      ]
-                    ]
-                  },
-                  {
-                    "label": "36061",
-                    "symbol": {
-                      "type": "esriSMS",
-                      "color": [
-                        107,
-                        107,
-                        214,
-                        255
-                      ],
-                      "angle": 0,
-                      "xoffset": 0,
-                      "yoffset": 0,
-                      "size": 6,
-                      "style": "esriSMSCircle",
-                      "outline": {
-                        "type": "esriSLS",
-                        "color": [
-                          153,
-                          153,
-                          153,
-                          64
-                        ],
-                        "width": 0.75,
-                        "style": "esriSLSSolid"
-                      }
-                    },
-                    "values": [
-                      [
-                        "36061"
-                      ]
-                    ]
-                  }
-                ]
-              }
-            ],
-            "uniqueValueInfos": [
-              {
-                "label": "17031",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    237,
-                    81,
-                    81,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "17031"
+                "name": "ZFSZD_Y",
+                "fieldFormat": {
+                  "type": "number",
+                  "minimumFractionDigits": 2,
+                  "useGrouping": "always"
+                }
               },
               {
-                "label": "06037",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    20,
-                    158,
-                    206,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "06037"
+                "name": "ZFSZD_X",
+                "fieldFormat": {
+                  "type": "number",
+                  "minimumFractionDigits": 2,
+                  "useGrouping": "always"
+                }
               },
               {
-                "label": "26163",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    167,
-                    198,
-                    54,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "26163"
+                "name": "DATE",
+                "fieldFormat": {
+                  "type": "date-time",
+                  "dateStyle": "short",
+                  "hour12": "always",
+                  "timeStyle": "short"
+                }
               },
               {
-                "label": "12086",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    158,
-                    85,
-                    156,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "12086"
+                "name": "TOTAL_CASE",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
               },
               {
-                "label": "04013",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    252,
-                    146,
-                    31,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "04013"
+                "name": "NEW_CASE",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
               },
               {
-                "label": "06073",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    255,
-                    222,
-                    62,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "06073"
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "minimumFractionDigits": 2,
+                  "useGrouping": "always"
+                }
               },
               {
-                "label": "06085",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    247,
-                    137,
-                    216,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "06085"
-              },
-              {
-                "label": "42003",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    183,
-                    129,
-                    74,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "42003"
-              },
-              {
-                "label": "39035",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    60,
-                    175,
-                    153,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "39035"
-              },
-              {
-                "label": "36061",
-                "symbol": {
-                  "type": "esriSMS",
-                  "color": [
-                    107,
-                    107,
-                    214,
-                    255
-                  ],
-                  "angle": 0,
-                  "xoffset": 0,
-                  "yoffset": 0,
-                  "size": 6,
-                  "style": "esriSMSCircle",
-                  "outline": {
-                    "type": "esriSLS",
-                    "color": [
-                      153,
-                      153,
-                      153,
-                      64
-                    ],
-                    "width": 0.75,
-                    "style": "esriSLSSolid"
-                  }
-                },
-                "value": "36061"
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "minimumFractionDigits": 2,
+                  "useGrouping": "always"
+                }
               }
             ]
-          }
+          },
+          "blendMode": "normal"
+        },
+        {
+          "id": "1a168c3cd3d-layer-58",
+          "title": "Beijing city map covid19",
+          "url": "https://services1.arcgis.com/oC086ufSSQ6Avnw2/arcgis/rest/services/Beijing_Map_2020_Covid19/FeatureServer/0",
+          "itemId": "5a74bcc3317443e593bf6487d77a5f71",
+          "layerType": "ArcGISFeatureLayer",
+          "layerDefinition": {
+            "fieldConfigurations": [
+              {
+                "name": "ZFSZD_Y",
+                "fieldFormat": {
+                  "type": "number",
+                  "minimumFractionDigits": 2,
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "ZFSZD_X",
+                "fieldFormat": {
+                  "type": "number",
+                  "minimumFractionDigits": 2,
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "TOTAL_CASE",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "NEW_CASES",
+                "fieldFormat": {
+                  "type": "number",
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "DATE",
+                "fieldFormat": {
+                  "type": "date-time",
+                  "dateStyle": "short",
+                  "hour12": "always",
+                  "timeStyle": "short"
+                }
+              },
+              {
+                "name": "Shape__Area",
+                "fieldFormat": {
+                  "type": "number",
+                  "minimumFractionDigits": 2,
+                  "useGrouping": "always"
+                }
+              },
+              {
+                "name": "Shape__Length",
+                "fieldFormat": {
+                  "type": "number",
+                  "minimumFractionDigits": 2,
+                  "useGrouping": "always"
+                }
+              }
+            ]
+          },
+          "blendMode": "normal"
         }
-      }
+      ],
+      "layerType": "GroupLayer",
+      "blendMode": "normal"
     }
   ],
   "baseMap": {
@@ -704,6 +167,12 @@
   },
   "authoringApp": "ArcGIS API for JavaScript",
   "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37",
   "initialState": {
     "viewpoint": {
       "targetGeometry": {
@@ -711,17 +180,11 @@
           "latestWkid": 3857,
           "wkid": 102100
         },
-        "xmin": -14663205.13417104,
-        "ymin": 4450864.961033516,
-        "xmax": -11693779.459349303,
-        "ymax": 7806756.250865001
+        "xmin": 12848149.847324137,
+        "ymin": 4785210.157176316,
+        "xmax": 13080955.889262185,
+        "ymax": 5021080.400173052
       }
     }
-  },
-  "spatialReference": {
-    "latestWkid": 3857,
-    "wkid": 102100
-  },
-  "timeZone": "system",
-  "version": "2.37"
+  }
 }
