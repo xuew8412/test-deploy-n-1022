@@ -1,11 +1,11 @@
 {
   "kind": "arcgis-nova-deployable-app",
   "version": "0.1",
-  "generatedAt": "2026-10-23T12:29:09.050Z",
-  "title": "Today’s Calendar & Coordinates",
+  "generatedAt": "2026-10-23T16:25:38.098Z",
+  "title": "Shining Calendar Coordinates App",
   "authMode": "oauth",
   "entry": "index.html",
-  "sourceAppPath": "outputs/apps/2026-10-23T12-29-09-c9c77a6a-d2b8-4e05-b394-dd79a3c77e0a/index.html",
+  "sourceAppPath": "outputs/apps/2026-10-23T16-25-38-355ac39a-7d2c-4356-a55e-ed436e0aa8df/index.html",
   "files": {
     "app": "app.json",
     "map": "map.json",
@@ -13,6 +13,6 @@
     "auth": "standalone-auth.js"
   },
   "portalUrl": "https://www.arcgis.com",
-  "appId": "NBYyByHSmXl89tqY",
+  "appId": "CmXlOO2E6WUdfuRt",
   "deploymentUrl": "https://xuew8412.github.io/test-deploy-n-1022/"
 }

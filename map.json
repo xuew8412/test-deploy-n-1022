@@ -1,145 +1,291 @@
 {
   "operationalLayers": [
     {
-      "id": "1a168c3c854-layer-56",
-      "title": "Beijing COVID-19 Risk Levels",
-      "layers": [
-        {
-          "id": "1a168c3cd3c-layer-57",
-          "title": "Beijing street map covid19",
-          "url": "https://services1.arcgis.com/oC086ufSSQ6Avnw2/arcgis/rest/services/Beijing_Map_2020_Covid19/FeatureServer/1",
-          "itemId": "5a74bcc3317443e593bf6487d77a5f71",
-          "layerType": "ArcGISFeatureLayer",
-          "layerDefinition": {
-            "fieldConfigurations": [
-              {
-                "name": "ZFSZD_Y",
-                "fieldFormat": {
-                  "type": "number",
-                  "minimumFractionDigits": 2,
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "ZFSZD_X",
-                "fieldFormat": {
-                  "type": "number",
-                  "minimumFractionDigits": 2,
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "DATE",
-                "fieldFormat": {
-                  "type": "date-time",
-                  "dateStyle": "short",
-                  "hour12": "always",
-                  "timeStyle": "short"
-                }
-              },
-              {
-                "name": "TOTAL_CASE",
-                "fieldFormat": {
-                  "type": "number",
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "NEW_CASE",
-                "fieldFormat": {
-                  "type": "number",
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "Shape__Area",
-                "fieldFormat": {
-                  "type": "number",
-                  "minimumFractionDigits": 2,
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "Shape__Length",
-                "fieldFormat": {
-                  "type": "number",
-                  "minimumFractionDigits": 2,
-                  "useGrouping": "always"
+      "id": "shining-clicked-locations",
+      "title": "Shining clicked locations",
+      "layerType": "ArcGISFeatureLayer",
+      "opacity": 1,
+      "visibility": true,
+      "listMode": "show",
+      "featureCollection": {
+        "layers": [
+          {
+            "layerDefinition": {
+              "name": "Shining clicked locations",
+              "geometryType": "esriGeometryPoint",
+              "drawingInfo": {
+                "renderer": {
+                  "type": "simple",
+                  "symbol": {
+                    "type": "esriSMS",
+                    "color": [
+                      0,
+                      229,
+                      195,
+                      230
+                    ],
+                    "angle": 0,
+                    "xoffset": 0,
+                    "yoffset": 0,
+                    "size": 18,
+                    "style": "esriSMSCircle",
+                    "outline": {
+                      "type": "esriSLS",
+                      "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                      ],
+                      "width": 2,
+                      "style": "esriSLSSolid"
+                    }
+                  }
                 }
               }
-            ]
-          },
-          "blendMode": "normal"
-        },
-        {
-          "id": "1a168c3cd3d-layer-58",
-          "title": "Beijing city map covid19",
-          "url": "https://services1.arcgis.com/oC086ufSSQ6Avnw2/arcgis/rest/services/Beijing_Map_2020_Covid19/FeatureServer/0",
-          "itemId": "5a74bcc3317443e593bf6487d77a5f71",
-          "layerType": "ArcGISFeatureLayer",
-          "layerDefinition": {
-            "fieldConfigurations": [
-              {
-                "name": "ZFSZD_Y",
-                "fieldFormat": {
-                  "type": "number",
-                  "minimumFractionDigits": 2,
-                  "useGrouping": "always"
+            },
+            "featureSet": {
+              "geometryType": "esriGeometryPoint",
+              "features": [
+                {
+                  "aggregateGeometries": null,
+                  "geometry": {
+                    "spatialReference": {
+                      "latestWkid": 3857,
+                      "wkid": 102100
+                    },
+                    "x": -10902787.272272572,
+                    "y": 4721671.57258
+                  },
+                  "symbol": {
+                    "type": "esriSMS",
+                    "color": [
+                      0,
+                      229,
+                      195,
+                      224
+                    ],
+                    "angle": 0,
+                    "xoffset": 0,
+                    "yoffset": 0,
+                    "size": 20,
+                    "style": "esriSMSCircle",
+                    "outline": {
+                      "type": "esriSLS",
+                      "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                      ],
+                      "width": 2,
+                      "style": "esriSLSSolid"
+                    }
+                  },
+                  "attributes": {
+                    "label": "Shining location 1"
+                  },
+                  "popupTemplate": {
+                    "description": "A location captured from the map.",
+                    "title": "{label}"
+                  }
+                },
+                {
+                  "aggregateGeometries": null,
+                  "geometry": {
+                    "spatialReference": {
+                      "latestWkid": 3857,
+                      "wkid": 102100
+                    },
+                    "x": -11300259.520773241,
+                    "y": 4672344.0112718865
+                  },
+                  "symbol": {
+                    "type": "esriSMS",
+                    "color": [
+                      0,
+                      229,
+                      195,
+                      224
+                    ],
+                    "angle": 0,
+                    "xoffset": 0,
+                    "yoffset": 0,
+                    "size": 20,
+                    "style": "esriSMSCircle",
+                    "outline": {
+                      "type": "esriSLS",
+                      "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                      ],
+                      "width": 2,
+                      "style": "esriSLSSolid"
+                    }
+                  },
+                  "attributes": {
+                    "label": "Shining location 2"
+                  },
+                  "popupTemplate": {
+                    "description": "A location captured from the map.",
+                    "title": "{label}"
+                  }
+                },
+                {
+                  "aggregateGeometries": null,
+                  "geometry": {
+                    "spatialReference": {
+                      "latestWkid": 3857,
+                      "wkid": 102100
+                    },
+                    "x": -11274169.413228098,
+                    "y": 4228805.614197317
+                  },
+                  "symbol": {
+                    "type": "esriSMS",
+                    "color": [
+                      0,
+                      229,
+                      195,
+                      224
+                    ],
+                    "angle": 0,
+                    "xoffset": 0,
+                    "yoffset": 0,
+                    "size": 20,
+                    "style": "esriSMSCircle",
+                    "outline": {
+                      "type": "esriSLS",
+                      "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                      ],
+                      "width": 2,
+                      "style": "esriSLSSolid"
+                    }
+                  },
+                  "attributes": {
+                    "label": "Shining location 3"
+                  },
+                  "popupTemplate": {
+                    "description": "A location captured from the map.",
+                    "title": "{label}"
+                  }
+                },
+                {
+                  "aggregateGeometries": null,
+                  "geometry": {
+                    "spatialReference": {
+                      "latestWkid": 3857,
+                      "wkid": 102100
+                    },
+                    "x": -11352440.930192098,
+                    "y": 3439567.619088892
+                  },
+                  "symbol": {
+                    "type": "esriSMS",
+                    "color": [
+                      0,
+                      229,
+                      195,
+                      224
+                    ],
+                    "angle": 0,
+                    "xoffset": 0,
+                    "yoffset": 0,
+                    "size": 20,
+                    "style": "esriSMSCircle",
+                    "outline": {
+                      "type": "esriSLS",
+                      "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                      ],
+                      "width": 2,
+                      "style": "esriSLSSolid"
+                    }
+                  },
+                  "attributes": {
+                    "label": "Shining location 4"
+                  },
+                  "popupTemplate": {
+                    "description": "A location captured from the map.",
+                    "title": "{label}"
+                  }
                 }
-              },
-              {
-                "name": "ZFSZD_X",
-                "fieldFormat": {
-                  "type": "number",
-                  "minimumFractionDigits": 2,
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "TOTAL_CASE",
-                "fieldFormat": {
-                  "type": "number",
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "NEW_CASES",
-                "fieldFormat": {
-                  "type": "number",
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "DATE",
-                "fieldFormat": {
-                  "type": "date-time",
-                  "dateStyle": "short",
-                  "hour12": "always",
-                  "timeStyle": "short"
-                }
-              },
-              {
-                "name": "Shape__Area",
-                "fieldFormat": {
-                  "type": "number",
-                  "minimumFractionDigits": 2,
-                  "useGrouping": "always"
-                }
-              },
-              {
-                "name": "Shape__Length",
-                "fieldFormat": {
-                  "type": "number",
-                  "minimumFractionDigits": 2,
-                  "useGrouping": "always"
-                }
+              ]
+            },
+            "popupInfo": {
+              "description": "A location captured from the map.",
+              "title": "{label}"
+            }
+          }
+        ]
+      },
+      "nova": {
+        "sourceLayerType": "graphics"
+      },
+      "blendMode": "normal",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSMS",
+              "color": [
+                0,
+                229,
+                195,
+                230
+              ],
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "size": 18,
+              "style": "esriSMSCircle",
+              "outline": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  255,
+                  255
+                ],
+                "width": 2,
+                "style": "esriSLSSolid"
               }
-            ]
-          },
-          "blendMode": "normal"
+            }
+          }
         }
-      ],
-      "layerType": "GroupLayer",
+      },
+      "popupInfo": {
+        "description": "A location captured from the map.",
+        "title": "{label}"
+      }
+    },
+    {
+      "id": "1a1699e4043-layer-56",
+      "title": "Private schools",
+      "url": "https://services1.arcgis.com/oC086ufSSQ6Avnw2/arcgis/rest/services/schools/FeatureServer/0",
+      "itemId": "a3a09d8750b84cb89f05b9be5474f385",
+      "layerType": "ArcGISFeatureLayer",
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "ELEV_METER",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "always"
+            }
+          }
+        ]
+      },
       "blendMode": "normal"
     }
   ],
@@ -180,10 +326,10 @@
           "latestWkid": 3857,
           "wkid": 102100
         },
-        "xmin": 12848149.847324137,
-        "ymin": 4785210.157176316,
-        "xmax": 13080955.889262185,
-        "ymax": 5021080.400173052
+        "xmin": -19017172.447136886,
+        "ymin": -1615902.1842540256,
+        "xmax": 18672422.16238187,
+        "ymax": 9574705.223977245
       }
     }
   }

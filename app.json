@@ -1,10 +1,10 @@
 {
   "version": "0.3",
   "kind": "app",
-  "generatedAt": "2026-10-23T12:29:09.054Z",
+  "generatedAt": "2026-10-23T16:25:38.103Z",
   "item": {
-    "title": "Today’s Calendar & Coordinates",
-    "subtitle": "Click the map to read coordinates"
+    "title": "Shining Calendar Coordinates App",
+    "subtitle": "Today at a glance • click the map to read coordinates"
   },
   "map": {
     "type": "webmap",
@@ -15,25 +15,32 @@
     "preset": "map",
     "showHeader": true,
     "theme": {
-      "mode": "light",
-      "accent": "default"
+      "mode": "dark",
+      "accent": "coral"
     },
     "layout": {
-      "right": {
+      "left": {
         "hidden": false,
-        "width": "320px",
+        "width": "330px",
         "title": "Today",
         "collapsed": false,
         "blocks": [
           {
             "type": "customMount",
             "id": "today-calendar",
-            "title": "Calendar"
-          },
+            "title": "Calendar & coordinates"
+          }
+        ]
+      },
+      "footer": {
+        "hidden": false,
+        "collapsed": false,
+        "blocks": [
           {
-            "type": "customMount",
-            "id": "click-coordinates",
-            "title": "Coordinates"
+            "type": "text",
+            "id": "map-hint",
+            "content": "Click anywhere on the map to display longitude and latitude.",
+            "format": "plain"
           }
         ]
       }
@@ -44,13 +51,6 @@
         "type": "home",
         "slot": "top-left",
         "title": "Home",
-        "config": {}
-      },
-      {
-        "id": "scale",
-        "type": "scaleBar",
-        "slot": "bottom-left",
-        "title": "Scale",
         "config": {}
       },
       {
@@ -75,17 +75,18 @@
     "interactions": [],
     "behaviors": [
       {
-        "id": "calendar-and-coordinates",
-        "label": "Today calendar and map-click coordinates",
-        "bundlePath": "./runtime/behaviors/calendar-and-coordinates-ff624a9672bf24c7.js",
-        "sourceSha256": "ff624a9672bf24c7a3f57789294dd6927628ef722bb60874269b322c7fc857dc",
+        "id": "calendar-coordinate-click",
+        "label": "Shining calendar, coordinates, and clicked locations",
+        "bundlePath": "./runtime/behaviors/calendar-coordinate-click-ff21678932ce0cfa.js",
+        "sourceSha256": "ff21678932ce0cfa487abf931cd41639fc30a50117713cc6bc9ce155242dc386",
         "modulePaths": [
-          "esri/geometry/support/webMercatorUtils"
+          "esri/Graphic",
+          "esri/geometry/support/webMercatorUtils",
+          "esri/layers/GraphicsLayer"
         ],
         "config": {},
         "mounts": [
-          "today-calendar",
-          "click-coordinates"
+          "today-calendar"
         ],
         "ownedLayerIds": [],
         "interactions": [
@@ -97,20 +98,20 @@
             "actionId": "show-click-coordinates"
           }
         ],
-        "installedAt": "2026-10-23T12:30:17.199Z"
+        "installedAt": "2026-10-23T16:33:19.100Z"
       }
     ]
   },
   "nova": {
-    "basename": "c9c77a6a-d2b8-4e05-b394-dd79a3c77e0a",
+    "basename": "355ac39a-7d2c-4356-a55e-ed436e0aa8df",
     "presentationMode": "app",
     "ownedGraphicsLayerIds": [],
     "origin": {
       "portalUrl": "https://www.arcgis.com",
-      "mapId": "output-77fe2ead-2986-45fa-8f1f-c8737230bd81",
+      "mapId": "output-5fc4334c-360e-42eb-8a09-4599f87f5d43",
       "mapName": "New Conversation",
       "viewMode": "2d",
-      "capturedAt": "2026-10-23T12:29:09.050Z"
+      "capturedAt": "2026-10-23T16:25:38.098Z"
     },
     "sourceSelection": {
       "mode": "all"
